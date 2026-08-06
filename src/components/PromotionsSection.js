@@ -31,7 +31,7 @@ function PromotionsSection() {
           <span className="blob blob-yellow" aria-hidden="true" />
           <div className="promo-circle">
             <img
-              src="https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/bt4dhq16pzakd4fdppca"
+              src="https://www.image2url.com/r2/default/images/1786026594743-5309ff5e-ded9-4d3d-8db9-1dbcaa77f355.png"
               
             />
           </div>
