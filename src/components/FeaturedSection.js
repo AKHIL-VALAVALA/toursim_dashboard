@@ -32,6 +32,7 @@ function FeaturedSection() {
           <div className="hero-circle">
             <img
               src="https://www.image2url.com/r2/default/images/1786026594743-5309ff5e-ded9-4d3d-8db9-1dbcaa77f355.png"
+                arlt="students"
               
             />
           </div>
