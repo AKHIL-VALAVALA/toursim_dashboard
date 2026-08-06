@@ -13,7 +13,7 @@ function BookingSection() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // Mock submission — no real backend, just log + confirm to the user.
+
     console.log("Booking submitted:", form);
     setSubmitted(true);
     setForm(initialState);
@@ -38,7 +38,7 @@ function BookingSection() {
             required
             value={form.name}
             onChange={handleChange}
-            placeholder="Placeholder"
+            placeholder="Name"
           />
         </div>
 
