@@ -32,7 +32,7 @@ function PromotionsSection() {
           <div className="promo-circle">
             <img
               src="https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/bt4dhq16pzakd4fdppca"
-              alt="Student"
+              
             />
           </div>
           <span className="dot dot-ring promo-ring" aria-hidden="true" />
