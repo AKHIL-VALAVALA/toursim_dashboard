@@ -5,9 +5,6 @@ const API_URL =
   "https://nxtwave-assessments-backend-nxtwave-media-static.s3-ap-south-1.amazonaws.com/topin_beta/media/content_loading/uploads/19e5009c-c751-4324-a3fe-3a29d46587f2_destinationData.json";
 
 const PAGE_SIZE = 4;
-
-// Normalizes different possible API key names into a consistent shape,
-// since the exact field names from the API may vary.
 function normalizeDestination(item, index) {
   return {
     id: item.id ?? item._id ?? index,
@@ -35,8 +32,6 @@ function DestinationsSection() {
         const res = await fetch(API_URL);
         if (!res.ok) throw new Error("Failed to fetch destinations");
         const data = await res.json();
-
-        // API may return an array directly, or wrap it in a key.
         const list = Array.isArray(data)
           ? data
           : data.destinations || data.data || [];
