@@ -11,7 +11,9 @@ function PromotionsSection() {
     <section className="promotions" id="membership">
       <div className="promotions-inner">
         <div className="promo-text">
-          <span className="swoosh" aria-hidden="true">⌒</span>
+          <span className="swoosh" aria-hidden="true">
+            ⌒
+          </span>
           <p className="eyebrow">Get 25% off for students</p>
           <h2>Student discounts available.</h2>
           <p className="promo-sub">Get ready for some fun in the sun</p>
@@ -31,9 +33,8 @@ function PromotionsSection() {
           <span className="blob blob-yellow" aria-hidden="true" />
           <div className="promo-circle">
             <img
-              src="https://www.image2url.com/r2/default/images/1786026594743-5309ff5e-ded9-4d3d-8db9-1dbcaa77f355.png"
-                alrt="students"
-              
+              src="https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/mvoayqqukkl2zjgq92zt"
+              alt="Student"
             />
           </div>
           <span className="dot dot-ring promo-ring" aria-hidden="true" />

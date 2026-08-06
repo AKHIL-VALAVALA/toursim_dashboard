@@ -10,7 +10,9 @@ function FeaturedSection() {
     <section className="hero" id="home">
       <div className="hero-inner">
         <div className="hero-text">
-          <span className="swoosh" aria-hidden="true">⌒</span>
+          <span className="swoosh" aria-hidden="true">
+            ⌒
+          </span>
           <p className="eyebrow">Discover the beauty of the tropics</p>
           <h1>
             Tropical
@@ -20,8 +22,8 @@ function FeaturedSection() {
             <span className="hero-light">For Student</span>
           </h1>
           <p className="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            do eiusmod tempor incididunt ut labore et dolore magna.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna.
           </p>
           <button className="btn btn-primary" onClick={handleSignUpClick}>
             Sign Up
@@ -32,8 +34,7 @@ function FeaturedSection() {
           <div className="hero-circle">
             <img
               src="https://www.image2url.com/r2/default/images/1786026594743-5309ff5e-ded9-4d3d-8db9-1dbcaa77f355.png"
-                arlt="students"
-              
+              alt="Tropical destination"
             />
           </div>
           <span className="dot dot-yellow" aria-hidden="true" />
