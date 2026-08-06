@@ -31,7 +31,7 @@ function FeaturedSection() {
         <div className="hero-image-wrap">
           <div className="hero-circle">
             <img
-              src="https://images.unsplash.com/photo-1488372759477-a7f4aa078cb7?w=600&h=600&fit=crop&q=80"
+              src="https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/mvoayqqukkl2zjgq92zt"
               alt="Student"
             />
           </div>
